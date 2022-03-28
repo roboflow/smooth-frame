@@ -24,6 +24,7 @@ local_max = ["name", 0, "last_box", "x", "y"]
 lookup_dict = {"empty": 0}
 
 # get predictions from image
+# IF USING LIVE STREAM DATA, REPLACE IMAGES WITH YOUR CAMERA PLUG
 images = sorted(glob.glob('./test_images/*.png'))
 for image in images:
     # open image using PIL
